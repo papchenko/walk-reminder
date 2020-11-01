@@ -12,6 +12,6 @@ public class Notification {
     }
 
     public String text() {
-        return time + ":" + time.getMinute() + ": " + message;
+        return time.getHour() + ":" + time.getMinute() + ": " + message;
     }
 }
